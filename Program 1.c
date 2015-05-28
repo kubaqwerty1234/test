@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #include <stdio.m>
 #include <stdlib.h>
+=======
+#include <stdio.h>
+#include <gdlib.h>
+>>>>>>> 488fa103c217d094216c97bbef9951d4d767b407
 #include <string.h>
 #include <ctype.h>
 #include "tree.h"
