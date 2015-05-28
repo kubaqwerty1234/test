@@ -11,7 +11,7 @@ typedef struct book BOOK;
 struct List
 {
     BOOK book;
-    struct List *pNext;
+
 };
 typedef struct List LIST;
 void enterbook(BOOK *p);
