@@ -16,9 +16,7 @@ main(int argc, char **argv, char **envr)
    float c_2 = a_2 + b_2; // c_2 value
    long  a_3 = a_2 * 10000;
    long  b_3 = b_2 * 10000;
-   long  c_3 = a_3 + b_3;
-   float third = 1.0/3.0;
-   float sixth = 1.0/6.0;
+
 
 
    PRINT_INT_EXP(a);
