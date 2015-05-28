@@ -1,4 +1,4 @@
-int playchessgame(){
+int game(){
 
         char wmove[8]={"0"};
         char bmove[8]={"0"};
