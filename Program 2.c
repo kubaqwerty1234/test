@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 int game(){
+=======
+void playchessgame(){
+>>>>>>> 2ec62c64a5ea94b94593b4686881a214cc0b53b3
 
         char wmove[8]={"0"};
         char bmove[8]={"0"};
