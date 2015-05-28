@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.m>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -72,11 +72,11 @@ void insert(wzl* nowy, wzl* root)
       {
 	(*wezel).left=nowy;
 	(*nowy).up=wezel;
-	koniec=0;		
+	koniec=0;
       }
       else
       {
-	wezel=(*wezel).left;	
+	wezel=(*wezel).left;
       }
     }
     if(dzialanie>0)
@@ -138,12 +138,12 @@ int szukaj(wzl* root,char input[20])
   int end=0;
   do
   {
-    if(wsk==NULL) 
+    if(wsk==NULL)
     {
       end=1;
     }
     else
-    {	
+    {
       wynik=porownaj(input,(*wsk).nazwisko);
       if(wynik==0) end=1;
       if(wynik<0)
@@ -156,7 +156,7 @@ int szukaj(wzl* root,char input[20])
       }
     }
   }while(end!=1);
-if(wynik==0) 
+if(wynik==0)
   {
     printf("Osoba o podanym nazwisku istnieje i ma dane:\n");
     wypisz1(wsk);
