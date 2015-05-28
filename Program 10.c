@@ -14,7 +14,6 @@ void main(){
     while (tempi->next != NULL){
         printf("%d ->", tempi->data);
     }
-    if (tempi->next == NULL) printf("%d", tempi->data);
 }
 
 node* list(int ar[N], int size){
