@@ -1,6 +1,6 @@
 prompt > cat d.c ; gcc -Wall -g d.c -o d ; ./d
 #include <stdio.h>
- 
+
 #define PRINT_INT_EXP(xx_exp) \
   fprintf(stdout,"%-40s = %10ld\n", # xx_exp,(long)(xx_exp))
 #define PRINT_DBL_EXP(xx_exp) \
@@ -19,8 +19,8 @@ main(int argc, char **argv, char **envr)
    long  c_3 = a_3 + b_3;
    float third = 1.0/3.0;
    float sixth = 1.0/6.0;
- 
- 
+
+
    PRINT_INT_EXP(a);
    PRINT_INT_EXP(b);
    PRINT_INT_EXP(c);
@@ -49,7 +49,7 @@ main(int argc, char **argv, char **envr)
    PRINT_INT_EXP((third * 1000)+.5);
    PRINT_INT_EXP(argc);
    return(0);
- 
+
 }
 a                                        =          3
 b                                        =          4
