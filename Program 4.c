@@ -15,8 +15,7 @@ void printList(NODE **pglava)
 }
 
 NODE *search (NODE **phead, NODE **ptail, int code)
-{
-    NODE *p=*phead, *q=*ptail;
+
 
     if(p->a.code==code)
         return p;
