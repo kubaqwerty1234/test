@@ -6,7 +6,6 @@
             free(*phead);
             *phead=d;
         }
-        *ptail=0;
     }
 
 
