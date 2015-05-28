@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <gdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include "tree.h"
