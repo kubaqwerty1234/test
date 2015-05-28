@@ -16,7 +16,6 @@
     int is_empty();
     int evaluatePostfix();
 
-    struct node *head;
 
 
     int main()  {
